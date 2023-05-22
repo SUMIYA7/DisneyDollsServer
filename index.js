@@ -90,7 +90,7 @@ run().catch(console.dir);
 
 
 
-// Routes
+// routes
 app.get('/', (req, res) => {    
     res.send('Toys Api running...');
 });
